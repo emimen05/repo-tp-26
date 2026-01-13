@@ -1,0 +1,685 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
+
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgb(252,251,255);
+    display: flex;
+    align-content:end;
+    flex-direction: column; 
+    
+}
+
+header
+        {  
+            
+    height: 83px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    border-width: 0,5 solid grey;
+    justify-content: center;
+    padding-bottom: 20px; 
+    
+    
+}
+.icono-header{display: none;}
+.imagen-header{display: none;}
+.conteiner-header{
+    display: flex;
+    flex-direction: row;align-items: center;
+}
+.menu-header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 800;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0px 4px;
+    padding: 6px 24px;
+}
+.lista-header{display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.item-header{
+    min-height: 41px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.5rem;
+    padding: 6px 24px;
+    margin: 0 2px;
+    gap: 2px;
+    margin: 0px 4px;
+    color: #652bdf;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    list-style: none;
+    text-decoration: none
+} 
+
+
+.buttons-header{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+
+}
+
+.button-secondary-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #652bdf;
+    background-color: #fff;
+    border-radius: 25px;
+    margin: 0px 4px;
+    padding: 6px 24px;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    width: 160px;
+    height: 41px;
+    border: 1px solid #652bdf;
+}
+
+.button-primary-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #652bdf;
+    border-radius: 25px;
+    margin: 0px 4px;
+    padding: 6px 24px;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    width: 160px;
+    height: 41px;
+
+}
+
+/* TERMINA EL HEADER */
+
+.div-separador{ 
+width: 100%;
+height: 40px;}
+.div-separador-dos{
+width: 100%;
+height: 30px;
+}
+.section-vuelodetunegocio{ 
+    
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.card-vuelosdetunegocio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    width: 1007px;
+    height: 314px;
+}
+.icono-card{
+    width: 50px;
+    height: 50px;
+    background-color: #f0eafc;
+    border-radius: 10px;
+    flex-direction: row;align-items: center;justify-content: center;
+    color: #652bdf;
+    font-size: 25px;
+
+}
+.bi-bar-chart-line{position: relative;left: 12px;top: 10px;}
+.bi-patch-exclamation{position: relative;left: 12px;top: 10px;}
+.bi-gift{position: relative;left: 12px;top: 10px;}
+.card-beneficios-uno{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+    margin: 12px 10px 0px 30px;
+    padding: 24px;
+    width:31%;
+    height:300px;
+    background-color:white;
+    padding: 40px;
+    border-radius: 15px;
+    
+}
+
+.card-beneficios-dos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+    margin: 12px 10px 0px 30px;
+    padding: 24px;
+    width:31%;
+    height:300px;
+    background-color:white;
+    padding: 40px;
+    border-radius: 15px;
+}
+.card-beneficios-tres{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+    margin: 12px 10px 0px 30px;
+    padding: 24px;
+    width:31%;
+    height:300px;
+    background-color:white;
+    padding: 40px;
+    border-radius: 15px;
+}
+.descripcion-historias
+{display: flex;
+flex-direction: row;}
+
+.bi-heart-fill{position: relative; left: 5px;
+color: #652bdf;}
+
+.promo-vuelosdetunegocio{
+    width: 1007px;
+    height: 134px;
+    display: flex;flex-direction: row;
+    background-color: rgb(226,210,255);
+    border-radius: 50px;
+    padding: 34px 40px;
+    margin: 60px 24px;
+    justify-content: space-between;
+    align-content: center;
+}
+.titulo-tarjeta-beneficio{    
+    font-weight: 600;
+    letter-spacing: -.045em;
+    margin: 8px 0;
+    font-size: 24px;
+    line-height: 1,5rem;
+    font-weight: 700; 
+    font-family: "Inter", Arial, Helvetica, sans-serif;}
+
+.descripcion-tarjeta-beneficio{
+    font-size: 18px;
+    line-height: 1.5rem;
+    color: #6a6a6a;
+    word-break: break-w
+}
+.Button-historiasquevuelan{display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #652bdf;
+    background-color: #fff;
+    border-radius: 25px;
+    margin: 0px 4px;
+    padding: 6px 24px;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    width: 160px;
+    height: 41px;
+}
+.button-conocer{ text-decoration: none;}
+
+.contenedor-boton--historiasqv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.contenedor-historiasquevuelan{
+    display: flex;
+flex-direction: column;
+align-content: space-between;
+color: rgb(54,12,114);
+gap: 17px
+;}
+/* TERMINA lA PRIMERA SECCION*/
+
+.Section-mediodecobro{
+    margin-top: 60px;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+
+.title-mediodecobro{
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: -.045em;
+    margin: 8px 0;
+    font-size: 30px;
+    font-weight: 700;   
+    vertical-align: baseline;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+
+}
+.description-mediodecobro{    text-align: center;
+    font-weight: 100;
+    letter-spacing: -.045em;
+    margin: 8px 0;
+    font-size: 20px;
+    font-weight: 700;   
+    vertical-align: baseline;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    
+
+}
+.contenedor-qr{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    border-radius: 50px;
+    padding: 50px 42px;
+    background-color: #fff;
+    width: 1007px;
+}
+
+
+.conocermas-qr{
+    color: #fff;
+    text-decoration: none; 
+}
+
+.descrpcion-QR{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width:475px; 
+    height:325px;
+    justify-content: space-between;
+    background-color: #fff;
+
+}
+.imagen-qr{ width:80%; height:325px;}
+.imagen-point{ width:475px; height:325px;}
+
+.parrafo-descripiconqr {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400;    
+    margin-bottom: 12px;
+    line-height: 1.5;
+}
+.titulo-qr{
+    font-weight: 600;
+    letter-spacing: -.045em;
+    padding-top: 50px;
+    font-size: 30px;
+    
+}
+.button-qr {   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #652bdf;
+    border-radius: 25px;
+    margin: 0px 4px;
+    padding: 6px 24px;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    width: 160px;
+    height: 41px;
+    
+
+}
+
+.mediodecobro-point{
+    display: flex;
+    flex-direction:row;
+    align-content: space-between;
+    margin-top: 30px;
+    padding: none;
+}
+.point-title{font-weight: 600;
+    letter-spacing: -.045em;
+    padding-top: 50px;
+    font-size: 30px;
+    
+    }
+.mediodecobro-point{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    border-radius: 50px;
+    padding: 50px 0px;
+    background-color: #fff;
+    width: 100%;
+
+}
+.terminal-point{
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400;    
+    margin-bottom: 12px;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 20px;
+
+}
+.button-point{   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #652bdf;
+    border-radius: 25px;
+    margin: 0px 4px;
+    padding: 6px 24px;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    width: 160px;
+    height: 41px;
+}
+.conocermas-point{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* TERMINA lA segunda SECCION*/
+
+.footer-link{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-content: center;
+    background-color:#fff;
+    margin-top: 80px;
+}
+.listas-foot{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: center;
+} 
+
+.imagen-foot{
+    position: relative;
+    left: 200px;margin-bottom: 20px;
+    padding-top: 40px;}
+
+    .Listaindividual-foot{
+        width: 237px;
+        background-color:#fff;
+        font-size: 14px;
+        font-family: "Inter", Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        
+    }
+    .Listaindividual-foot--grande
+    {
+        width: 237px;
+        background-color:#fff;
+        font-size: 14px;
+        font-family: "Inter", Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        
+    }
+    .link-individual{
+    text-decoration: none;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    word-break: normal;
+    overflow-wrap: anywhere;
+    font-size: 16px;
+    color: black; 
+    list-style-type: none
+        }
+    
+    ul{list-style-type: none;
+    }
+    
+    .titulo-link--foot{    
+    font-size: 16px;
+    font-weight: 700;}
+
+
+    @media screen and (max-width:1000px)
+    
+    
+    {
+.menu-header{display: none;}
+
+.buttons-header{   
+    display: none;
+}
+
+.logo-header{display: none;}
+.header {width: 100v;}
+
+
+.icono-header{   
+    display: flex;
+    position: absolute;
+    left: 30px;
+    font-size: 24px;
+    color: #030009;
+    font-weight: 600px;}
+
+.imagen-header{
+display: flex;
+align-content: center;}
+
+
+
+
+    
+    .card-vuelosdetunegocio{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    width: 312px;
+    height: 822px; padding: 0px 0px;
+    margin: 0px 0px;}
+
+   .card-beneficios-uno{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+    margin: 12px 10px 0px 10px;
+    
+    width:100%;
+    height:30%;
+    background-color:white;
+    padding: 20px;
+    border-radius: 15px;
+    
+}
+
+
+.card-beneficios-dos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+    margin: 12px 10px 0px 10px;
+    
+    width:100%;
+    height:30%;
+    background-color:white;
+    padding: 20px;
+    border-radius: 15px;
+    
+}
+.card-beneficios-tres{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+    margin: 12px 10px 0px 10px;
+    
+    width:100%;
+    height:30%;
+    background-color:white;
+    padding: 0px;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.promo-vuelosdetunegocio{
+    width: 80%;
+    height: 40%;
+    display: flex;flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    padding: 25px 25px;
+    margin: 60px 20px;
+    gap: 15px;
+}
+
+
+
+.contenedor-qr{
+    padding-top: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding: 10px 40px;
+    
+    width: 80%;
+    
+}
+
+
+.descrpcion-QR{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 80%;
+    justify-content:space-between;
+    background-color: #fff;
+    
+
+}
+
+.mediodecobro-point{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    border-radius: 50px;
+    padding: 30px 22px;
+    background-color: #fff;
+    width: 378px;
+    height: 50%;
+
+}
+.button-qr {   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #652bdf;
+    border-radius: 25px;
+    margin: 0px 4px;
+    padding: 6px 24px;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    width: 160px;
+    height: 41px;
+   
+    
+
+}
+.imagen-qr{ width:275px; height:220px;margin-top: 15px;}
+.imagen-point{ width:275px; height:220px;}
+
+.title-vuelodetunegocio{font-size: 15px;text-align: center;}
+body {display: flex;align-content: center;}
+.Listaindividual-foot--grande{display: none;}
+
+.parrafo-descripiconqr {
+   
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400;    
+    margin-bottom: 12px;
+    line-height: 1.5;
+    width: 90%;text-align: center;
+}
+
+.imagen-foot{position: relative;left: 10px;margin-bottom: 20px;
+    padding-top: 40px;}
+
+    .footer-link{padding-left: 40px;}
+    .Button-historiasquevuelan{width: 80%; text-align: center;}
+    .title-vuelodetunegocio{padding: 25px; font-size: 16px;}
+    .title-mediodecobro{padding: 0px 20px; font-size: 15px;}
+    .description-mediodecobro{padding: 0px 20px; font-size: 14px;font-weight: none;}
+    .Section-mediodecobro{margin-top: none;
+    }
+    .titulo-qr{
+    font-weight: 600;
+    letter-spacing: -.045em;
+    padding-top: 10px;
+    font-size: 30px;
+    font-size: 30px;}
+    .contenedor-tituloqr{display: flex; flex-direction: row;justify-content: center;}
+    .contenedor-parrafoqr{display: flex; flex-direction: row;justify-content: center;width: 80%;}
+    .contenedor-imagenqr{display: flex; flex-direction: row;justify-content: center;}
+    .contenedor-imagenpoint{display: flex; flex-direction: row;justify-content: center; padding: none;}
+    .parrafo-descripiconqr{width: 300px;}
+    .terminal-point{display: flex;flex-direction: column;align-content: center;width: 100%;}
+    .point-title{
+    padding-top: 10px;
+    font-size: 30px;
+    text-align: center;}
+    .terminal-point{display: flex;flex-direction: column;align-items: center;justify-content: center;}
+    .parrafo-pagoscontarjeta{text-align: center}
+    .contenedor-qr{display: flex;flex-direction: column;align-items: center;justify-content: center;gap:15px; width: 378px;}
+    }
+
+
+
+    @media screen and (max-width:450px){
+        .contenedor-qr{ width: 278px;}
+        .mediodecobro-point{ width: 278px;}
+        .parrafo-opciones{font-weight: none}
+    }
+
