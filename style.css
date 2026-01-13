@@ -305,7 +305,7 @@ gap: 17px
     background-color: #fff;
     width: 1007px;
 }
-
+.contenido-qr{display: flex; flex-direction: column; justify-content: space-between; width: 50%;}
 
 .conocermas-qr{
     color: #fff;
@@ -322,7 +322,7 @@ gap: 17px
     background-color: #fff;
 
 }
-.imagen-qr{ width:80%; height:325px;}
+.imagen-qr{ width:475px; height:325px;}
 .imagen-point{ width:475px; height:325px;}
 
 .parrafo-descripiconqr {
@@ -365,6 +365,7 @@ gap: 17px
     align-content: space-between;
     margin-top: 30px;
     padding: none;
+    width: 1007px;
 }
 .point-title{font-weight: 600;
     letter-spacing: -.045em;
@@ -380,7 +381,7 @@ gap: 17px
     border-radius: 50px;
     padding: 50px 0px;
     background-color: #fff;
-    width: 100%;
+    width: 1007px;
 
 }
 .terminal-point{
@@ -479,10 +480,10 @@ gap: 17px
 
     @media screen and (max-width:1000px)
     
-    
+  
     {
 .menu-header{display: none;}
-
+.contenido-qr{display: none;}
 .buttons-header{   
     display: none;
 }
@@ -627,7 +628,7 @@ align-content: center;}
     
 
 }
-.imagen-qr{ width:275px; height:220px;margin-top: 15px;}
+.imagen-qr{ width:255px; height:220px;margin-top: 15px;}
 .imagen-point{ width:275px; height:220px;}
 
 .title-vuelodetunegocio{font-size: 15px;text-align: center;}
@@ -647,7 +648,7 @@ body {display: flex;align-content: center;}
 .imagen-foot{position: relative;left: 10px;margin-bottom: 20px;
     padding-top: 40px;}
 
-    .footer-link{padding-left: 40px;}
+    .footer-link{padding-left: 50px;}
     .Button-historiasquevuelan{width: 80%; text-align: center;}
     .title-vuelodetunegocio{padding: 25px; font-size: 16px;}
     .title-mediodecobro{padding: 0px 20px; font-size: 15px;}
